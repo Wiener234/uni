@@ -1,0 +1,93 @@
+total 3.8G
+drwxr-xr-x 3 nils nils 4.0K Aug  8 16:36 .
+drwxr-xr-x 8 nils nils 4.0K Jul 11 15:52 ..
+-rw-r--r-- 1 nils nils 8.1K Jul 14 12:58 Bug_b.py
+-rw-r--r-- 1 nils nils 8.1K Jul 14 12:37 Bug.py
+-rw-r--r-- 1 nils nils    0 Aug  8 16:36 dates.txt
+-rw-r--r-- 1 nils nils 2.6K Jul 11 15:52 kruskal.py
+-rw-r--r-- 1 nils nils  12M Jul 14 12:58 modsim_0.1_10.csv
+-rw-r--r-- 1 nils nils  13M Jul 14 12:59 modsim_0.1_11.csv
+-rw-r--r-- 1 nils nils  15M Jul 14 13:00 modsim_0.1_12.csv
+-rw-r--r-- 1 nils nils  18M Jul 14 13:01 modsim_0.1_13.csv
+-rw-r--r-- 1 nils nils  20M Jul 14 13:02 modsim_0.1_14.csv
+-rw-r--r-- 1 nils nils  22M Jul 14 13:04 modsim_0.1_15.csv
+-rw-r--r-- 1 nils nils  25M Jul 14 13:06 modsim_0.1_16.csv
+-rw-r--r-- 1 nils nils  29M Jul 14 13:08 modsim_0.1_17.csv
+-rw-r--r-- 1 nils nils  32M Jul 14 13:15 modsim_0.1_18.csv
+-rw-r--r-- 1 nils nils  35M Jul 14 13:18 modsim_0.1_19.csv
+-rw-r--r-- 1 nils nils  38M Jul 14 13:34 modsim_0.1_20.csv
+-rw-r--r-- 1 nils nils  42M Jul 14 13:41 modsim_0.1_21.csv
+-rw-r--r-- 1 nils nils  45M Jul 14 13:58 modsim_0.1_22.csv
+-rw-r--r-- 1 nils nils  49M Jul 14 15:13 modsim_0.1_23.csv
+-rw-r--r-- 1 nils nils  53M Jul 14 15:26 modsim_0.1_24.csv
+-rw-r--r-- 1 nils nils  57M Jul 14 16:21 modsim_0.1_25.csv
+-rw-r--r-- 1 nils nils  61M Jul 14 20:04 modsim_0.1_26.csv
+-rw-r--r-- 1 nils nils  65M Jul 14 21:38 modsim_0.1_27.csv
+-rw-r--r-- 1 nils nils  70M Jul 14 22:48 modsim_0.1_28.csv
+-rw-r--r-- 1 nils nils  75M Jul 15 19:53 modsim_0.1_29.csv
+-rw-r--r-- 1 nils nils  80M Jul 15 20:45 modsim_0.1_30.csv
+-rw-r--r-- 1 nils nils  84M Jul 17 03:13 modsim_0.1_31.csv
+-rw-r--r-- 1 nils nils  90M Jul 17 07:23 modsim_0.1_32.csv
+-rw-r--r-- 1 nils nils  95M Jul 17 10:04 modsim_0.1_33.csv
+-rw-r--r-- 1 nils nils 100M Jul 17 18:16 modsim_0.1_34.csv
+-rw-r--r-- 1 nils nils 107M Jul 17 20:52 modsim_0.1_35.csv
+-rw-r--r-- 1 nils nils 113M Jul 18 19:19 modsim_0.1_36.csv
+-rw-r--r-- 1 nils nils 119M Jul 19 11:35 modsim_0.1_37.csv
+-rw-r--r-- 1 nils nils 125M Jul 20 04:19 modsim_0.1_38.csv
+-rw-r--r-- 1 nils nils 2.1M Jul 14 12:57 modsim_0.1_3.csv
+-rw-r--r-- 1 nils nils 2.9M Jul 14 12:57 modsim_0.1_4.csv
+-rw-r--r-- 1 nils nils 3.9M Jul 14 12:58 modsim_0.1_5.csv
+-rw-r--r-- 1 nils nils 5.0M Jul 14 12:58 modsim_0.1_6.csv
+-rw-r--r-- 1 nils nils 6.3M Jul 14 12:58 modsim_0.1_7.csv
+-rw-r--r-- 1 nils nils 7.7M Jul 14 12:58 modsim_0.1_8.csv
+-rw-r--r-- 1 nils nils 9.3M Jul 14 12:58 modsim_0.1_9.csv
+-rw-r--r-- 1 nils nils  12M Jul 14 12:59 modsim_0.2_10.csv
+-rw-r--r-- 1 nils nils  13M Jul 14 12:59 modsim_0.2_11.csv
+-rw-r--r-- 1 nils nils  15M Jul 14 13:00 modsim_0.2_12.csv
+-rw-r--r-- 1 nils nils  18M Jul 14 13:00 modsim_0.2_13.csv
+-rw-r--r-- 1 nils nils  20M Jul 14 13:01 modsim_0.2_14.csv
+-rw-r--r-- 1 nils nils  22M Jul 14 13:02 modsim_0.2_15.csv
+-rw-r--r-- 1 nils nils  25M Jul 14 13:02 modsim_0.2_16.csv
+-rw-r--r-- 1 nils nils  29M Jul 14 13:04 modsim_0.2_17.csv
+-rw-r--r-- 1 nils nils  32M Jul 14 13:05 modsim_0.2_18.csv
+-rw-r--r-- 1 nils nils  35M Jul 14 13:08 modsim_0.2_19.csv
+-rw-r--r-- 1 nils nils  38M Jul 14 13:11 modsim_0.2_20.csv
+-rw-r--r-- 1 nils nils  42M Jul 14 13:15 modsim_0.2_21.csv
+-rw-r--r-- 1 nils nils  45M Jul 14 13:25 modsim_0.2_22.csv
+-rw-r--r-- 1 nils nils  49M Jul 14 13:35 modsim_0.2_23.csv
+-rw-r--r-- 1 nils nils  53M Jul 14 13:43 modsim_0.2_24.csv
+-rw-r--r-- 1 nils nils  57M Jul 14 13:49 modsim_0.2_25.csv
+-rw-r--r-- 1 nils nils  61M Jul 14 14:12 modsim_0.2_26.csv
+-rw-r--r-- 1 nils nils  65M Jul 14 14:52 modsim_0.2_27.csv
+-rw-r--r-- 1 nils nils  70M Jul 14 15:10 modsim_0.2_28.csv
+-rw-r--r-- 1 nils nils  75M Jul 14 16:19 modsim_0.2_29.csv
+-rw-r--r-- 1 nils nils  80M Jul 14 16:57 modsim_0.2_30.csv
+-rw-r--r-- 1 nils nils  84M Jul 14 18:12 modsim_0.2_31.csv
+-rw-r--r-- 1 nils nils  90M Jul 14 19:01 modsim_0.2_32.csv
+-rw-r--r-- 1 nils nils  95M Jul 14 20:06 modsim_0.2_33.csv
+-rw-r--r-- 1 nils nils 100M Jul 14 20:29 modsim_0.2_34.csv
+-rw-r--r-- 1 nils nils 107M Jul 14 22:03 modsim_0.2_35.csv
+-rw-r--r-- 1 nils nils 113M Jul 15 01:06 modsim_0.2_36.csv
+-rw-r--r-- 1 nils nils 119M Jul 19 18:04 modsim_0.2_37.csv
+-rw-r--r-- 1 nils nils 125M Jul 19 22:31 modsim_0.2_38.csv
+-rw-r--r-- 1 nils nils 131M Jul 20 06:32 modsim_0.2_39.csv
+-rw-r--r-- 1 nils nils 2.1M Jul 14 12:58 modsim_0.2_3.csv
+-rw-r--r-- 1 nils nils 138M Jul 20 12:13 modsim_0.2_40.csv
+-rw-r--r-- 1 nils nils 144M Jul 20 16:02 modsim_0.2_41.csv
+-rw-r--r-- 1 nils nils 2.9M Jul 14 12:58 modsim_0.2_4.csv
+-rw-r--r-- 1 nils nils 3.9M Jul 14 12:58 modsim_0.2_5.csv
+-rw-r--r-- 1 nils nils 5.0M Jul 14 12:58 modsim_0.2_6.csv
+-rw-r--r-- 1 nils nils 6.3M Jul 14 12:58 modsim_0.2_7.csv
+-rw-r--r-- 1 nils nils 7.7M Jul 14 12:59 modsim_0.2_8.csv
+-rw-r--r-- 1 nils nils 9.3M Jul 14 12:59 modsim_0.2_9.csv
+-rw-r--r-- 1 nils nils  14K Jul 11 15:52 notes.ipynb
+drwxr-xr-x 2 nils nils 4.0K Jul 11 16:11 __pycache__
+-rw-r--r-- 1 nils nils 2.4K Jul 11 15:52 test
+
+
+
+
+Startzeit				14.07.2023			12:57 Uhr	 
+Zeit in Stunden:Minuten	603 Std. 27 Min.	603,45 Std.	 
+Tagesanzahl				25,14 Tage	 	 
+Endzeit					08.08.2023			16:24 Uhr
