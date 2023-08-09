@@ -304,16 +304,41 @@ Zu beachten ist jedoch, dass die Werte nicht durchgehend die selben sind, abgese
 
 Nimmt man nun den Durchschnitt der Zeit und Schritte jeder Labyrinthsgröße und ermittelt dafür jeweils den Durchschnitt, so kann man anhand eines Plots ablesen, wie sich die benötigten Schritte und Zeit im Verhältnis zur Labyrinthsgröße verhalten.  
 In Abbildung \ref{fig:Plot v1} ist der erste Versuch abgebildet. In diesem ist zu erkennen, dass sich bis Labyrinthgröße 22 keine starke Veränderung der benötigten Zeit oder Schritte einstellt. Bei Labyrinthgröße 23 ist der erste kleine Ausschlag zu erkennen und bei Labyrinthgröße 29 und 31 befinden sich die ersten beiden starken Ausschläge, wobei sich Größe 30 wieder in der Nähe der Größen bis 22 befindet. Anschließend findet ein leichter anstieg statt und ein starker Ausschlag bei Größe 36. 
-Wird nun eine Regressionskurve eingefügt, so ist zu erkennen, dass der Anstieg einer Exponentialfunktion ähnelt.
+Wird nun eine Regressionskurve eingefügt, so ist zu erkennen, dass der Anstieg einer Exponentialfunktion ähnelt. Im im logarithmischen Plot Abbildung \ref{fig:Plot v1Log} ist dies eindeutig zu sehen, da die Regressionskurve zu einer perfekten Gerade geworden ist. Somit ist die Regressionskurve eine Exponentialfunktion und die Schritte bzw. Zeit steigen exponentiel.
 
 \begin{figure}[h]
-\centering
-\includegraphics[scale=.5]{v1Aus.png}
-\caption{erster Versuch}
-\label{fig:Plot v1}
+	\centering
+	\includegraphics[scale=.5]{v1Aus.png}
+	\caption{erster Versuch}
+	\label{fig:Plot v1}
+\end{figure}
+\begin{figure}[t]
+	\centering
+	\includegraphics[scale=.5]{v1AusLog.png}
+	\caption{erster Versuch, Log-Plot}
+	\label{fig:Plot v1Log}
 \end{figure}
 
+\newpage
 
+Die gleiche Betrachtung ist ebenfalls auf den zweiten Versuch, Abbildung \ref{fig:Plot v2} anwendbar, hier ist auffällig, das es nur einen Ausschlag gibt, welcher auffällt. Dieser liegt bei Labyrinthgröße 37. Durch einfügen einer Regressionkurve sieht man in diesem Plot ebenfalls den Ansatz exponentielem Wachstums, welche sich in Abbildung \ref{fig:Plot v2Log} anhand der Geraden im logarithmischen Plot bestätigen lässt.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.5]{v2Aus.png}
+	\caption{zweiter Versuch}
+	\label{fig:Plot v2}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.5]{v2AusLog.png}
+	\caption{zweiter Versuch, Log-Plot}
+	\label{fig:Plot v2Log}
+\end{figure}
+
+\newpage
+
+Betrachtet man nun den Anstieg der Exponentialfunktionen in Abbildung \ref{fig:Plot v1} und Abbildung \ref{fig:Plot v2} so fällt auf, dass der zweite Versuch, wo der Käfer nur in drei Richtung laufen kann, einen weniger starken anstieg hat, als der Käfer im ersten Versuch, der in alle vier Richtungen laufen kann. Dies ist der Fall obwohl der Käfer im zweiten Versuch mehr Schritte machen muss um Rückwärts zu laufen. Begründen lässt es sich damit, dass es dem Käfer damit auch schwerer Fällt seinen Weg wieder rückwärts zu gehen, da dies nur passiert, wenn entweder rückwärts der einzige Weg ist, er als Ausgang in die Richtung guckt, welche rückwärts ist, er in der Routine vorwärts, rechts oder vorwärts, rechts, links den weg Rückwärts beschreitet. Also ist es dem Käfer nur in vier Fällen möglich rückwärts zu laufen, während der Käfer aus dem ersten Versuch in folgen Fällen rückwärts laufen kann. In vier Fällen, wenn er in einer Sackgasse ist, in drei Fällen wenn ein Weg hinter ihm ist und einer wo anders, in zwei Fällen wenn ein Weg hinter ihm und zwei Wege vor ihm sind und in einem Fall wen alle Wege offen sind. Somit ist es dem Käfer in 4 Fällen möglich rückwärts zu gehen. Folglich kann der Käfer aus dem ersten Versuch vier mal so oft seinen Weg wieder zurück gehen als der Käfer aus Versuch zwei. Es ist aber nur nötig rückwärts zu gehen, wenn der Käfer in einer Sackgasse gelandet ist. Somit ist der Käfer aus dem zweiten Versuch vier mal schneller als der Käfer aus dem ersten Versuch. Dies ist ebenfalls aus den Graphen ablesbar, da in Abbildung \ref{fig:Plot v1} die Regressionskurve bei etwa $4 \cdot 10^8$ und in Abbildung \ref{fig:Plot v2} bei etwa $1 \cdot 10^8$ endet. Zur Prüfung wird ebenfalls der Punkt betrachtet, bei welchem in Abbildung \ref{fig:Plot v2} die Regressionskurve bei etwa $0,5 \cdot 10^8$ sich befindet, welcher bei 36 liegt. Anschließend wird dieser Wert vervierfacht, was 2 ergibt und in Abbildung \ref{fig:Plot v1} bei x gleich 36 der Wert der Regressionskurve abgelesen welcher etwa 2 beträgt.
 
 
 \end{document}
