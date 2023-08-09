@@ -1,5 +1,8 @@
 \documentclass[11pt, a4paper]{article}
+\usepackage[ngerman]{babel}
 \usepackage{color}
+\usepackage{graphicx}
+\graphicspath{{./images/}}
 \usepackage{hyperref}
 % \usepackage{geometry}
 % \geometry{
@@ -273,5 +276,44 @@ Der dritte Versuch basiert auch auf dem Prüfen der Richtung im Uhrzei-gersinn, 
 
 Gespeichert wird welcher Durchlauf es insgesamt war, wie groß das Labyrinth war, welcher Durchlauf es für die bestimmte größe war, in welcher Zeit und mit wie vielen Schritten der Durchlauf abgeschlossen wurde und wie das Labyrinth aussah. Die Zeit wird berechnet jenachdem ob eine Prüfung nach einer Wand statgefunden hat oder ob ein Schritt gemacht wurde, heißt wenn ein Schritt gemacht wird, wird die Prüfung nach einer Wand nicht auf die Zeit gerechnet. Dies ist so vorzustellen als würde der Käfer gegen die Wand rennen, wenn eine dort ist hat er eine Zeiteinheit oben drauf wenn keine dort ist hat er sie ebenfalls oben drauf ist aber einen Schritt weiter. Die Schritter werden nur berechnet, wenn sich der Käfer ein Feld weiter bewegt hat.
 Diese Daten werden anschließend für jeden Labyrinthgröße in einer CSV-Datei gespeichert.
+
+\section{Auswertung}
+
+Es wurden Labyrinthe von der Größe drei bis zur Größe 38 für den Versuch verwendet. Jedes Labyrinth wurde dabei 100 mal gelöst und die Daten gespeichert und für diese Auswertung herangezogen. 
+
+\bigskip
+
+Bei der Betrachtung der Lösung eines einzelen Labyrinths fällt auf, dass die Zeit und Schritte, welche benötigt wurden um dieses Labyrinth zu lösen, bis auf ein paar Ausreißer, in einem gewissen Bereich gleich nah aneinander liegen. Ein hervorragendes Beispiel dafür ist der Druchlauf 29, zu sehen in Abbildung \ref{fig:Plot 29}, aus dem ersten Versuch. Dort ist nur ein Ausreißer deutlich zu erkenne, ansonsten liegen die Werte nah bei einander.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=.5]{29.png}
+\caption{Plot Durchlauf 29, erster Versuch}
+\label{fig:Plot 29}
+\end{figure}
+
+Zu beachten ist jedoch, dass die Werte nicht durchgehend die selben sind, abgesehen von den zuvor erwähnten Ausreißern, wie man es aus Abbildung \ref{fig:Plot 29} annehmen kann. Dass die Werte unterschiedlich sind und doch in der Nähe der anderen Werte liegen sieht man in Abbildung \ref{fig:Plot 3}, wo der Durchlauf 3 des ersten Versuches zu sehen ist.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=.5]{3.png}
+\caption{Plot Durchlauf 3, erster Versuch}
+\label{fig:Plot 3}
+\end{figure}
+
+Nimmt man nun den Durchschnitt der Zeit und Schritte jeder Labyrinthsgröße und ermittelt dafür jeweils den Durchschnitt, so kann man anhand eines Plots ablesen, wie sich die benötigten Schritte und Zeit im Verhältnis zur Labyrinthsgröße verhalten.  
+In Abbildung \ref{fig:Plot v1} ist der erste Versuch abgebildet. In diesem ist zu erkennen, dass sich bis Labyrinthgröße 22 keine starke Veränderung der benötigten Zeit oder Schritte einstellt. Bei Labyrinthgröße 23 ist der erste kleine Ausschlag zu erkennen und bei Labyrinthgröße 29 und 31 befinden sich die ersten beiden starken Ausschläge, wobei sich Größe 30 wieder in der Nähe der Größen bis 22 befindet. Anschließend findet ein leichter anstieg statt und ein starker Ausschlag bei Größe 36. 
+Wird nun eine Regressionskurve eingefügt, so ist zu erkennen, dass der Anstieg einer Exponentialfunktion ähnelt.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=.5]{v1Aus.png}
+\caption{erster Versuch}
+\label{fig:Plot v1}
+\end{figure}
+
+
+
 
 \end{document}
