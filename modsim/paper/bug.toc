@@ -1,9 +1,10 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Notes}{1}{section.1}%
-\contentsline {section}{\numberline {2}Einführung}{3}{section.2}%
-\contentsline {section}{\numberline {3}Problem}{4}{section.3}%
-\contentsline {section}{\numberline {4}Aufbau}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Erzeugen des Labyrinths}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Durchlaufen des Labyrinths}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Daten sammeln und speichern}{8}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Auswertung}{8}{section.5}%
+\contentsline {section}{\numberline {1}Einführung}{2}{section.1}%
+\contentsline {section}{\numberline {2}Problem}{3}{section.2}%
+\contentsline {section}{\numberline {3}Aufbau}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Erzeugen des Labyrinths}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Durchlaufen des Labyrinths}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Daten sammeln und speichern}{7}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Auswertung}{7}{section.4}%
+\contentsline {section}{\numberline {5}Fehlerbetrachtung}{10}{section.5}%
+\contentsline {section}{\numberline {6}Fazit}{10}{section.6}%
