@@ -4,31 +4,41 @@ from math import e
 import numpy as np
 
 # # Uncomment to show time and steps of every labyrinth size from 0.1
-# x = []
-# steps = []
-# time = []
-# for j in range(3,39):
-#     steps = []
-#     time = []
-#     x = []
-#     filename = "data/modsim_0.1_"+str(j)+".csv"
-#     with open(filename, "r") as file:
-#         reader = csv.DictReader(file)
-#         i = 0
-#         for row in reader:
-#             if i >= 100:
-#                 break
-#             x.append(int(row["Iteration of Size"]))
-#             steps.append(int(row["Steps"]))
-#             time.append(int(row["Time"]))
-#             i+=1
-       
-#     plt.plot(x, time, "r")
-#     plt.plot(x, steps, "b")
-#     plt.xlabel("Nummer der Durchläufe für: " + str(j))
-#     plt.ylabel("Zeit/Schritte")
-#     plt.legend(["Zeit", "Schritte"], loc="upper left")
-#     plt.show()
+x = []
+steps = []
+time = []
+for j in range(3,39):
+    steps = []
+    time = []
+    times = 0
+    step = 0
+    x = []
+    filename = "data/modsim_0.1_"+str(j)+".csv"
+    with open(filename, "r") as file:
+        reader = csv.DictReader(file)
+        i = 0
+        for row in reader:
+            if i >= 100:
+                break
+            x.append(int(row["Iteration of Size"]))
+            steps.append(int(row["Steps"]))
+            time.append(int(row["Time"]))
+            # times+=int(row["Time"])
+            # step+=int(row["Steps"])
+            i+=1
+    l = [] 
+    for i in range(1,101):
+        l.append(times/100)
+
+    # print(times/100)
+    # print(step/100)
+    # plt.plot(x, l, "g")
+    plt.plot(x, time, "r")
+    plt.plot(x, steps, "b")
+    plt.xlabel("Nummer der Durchläufe für: " + str(j))
+    plt.ylabel("Zeit/Schritte")
+    plt.legend(["Zeit", "Schritte"], loc="upper left")
+    plt.show()
 
 # # Uncomment to show time and steps of every labyrinth size from 0.2
 # x = []
