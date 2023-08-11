@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.25)  10 AUG 2023 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.25)  11 AUG 2023 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -171,7 +171,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authortitle.dbx' not found.
+Package biblatex Info: ... file 'verbose.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count315
@@ -279,6 +279,10 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip20
 \c@smartand=\count391
 )
+Package biblatex Info: Trying to load bibliography style 'verbose'...
+Package biblatex Info: ... file 'verbose.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/verbose.bbx
+File: verbose.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'authortitle'...
 Package biblatex Info: ... file 'authortitle.bbx' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx
@@ -289,11 +293,11 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count392
 \c@bbx:relatedtotal=\count393
-))
-Package biblatex Info: Trying to load citation style 'authortitle'...
-Package biblatex Info: ... file 'authortitle.cbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/cbx/authortitle.cbx
-File: authortitle.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+)))
+Package biblatex Info: Trying to load citation style 'verbose'...
+Package biblatex Info: ... file 'verbose.cbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/cbx/verbose.cbx
+File: verbose.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -328,10 +332,10 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
@@ -628,29 +632,29 @@ Overfull \hbox (12.40703pt too wide) in paragraph at lines 235--237
  []
 
 [4] [5] [6]
-<./images//29.png, id=163, 462.528pt x 346.896pt>
+<./images//29.png, id=165, 462.528pt x 346.896pt>
 File: ./images//29.png Graphic file (type png)
 <use ./images//29.png>
 Package pdftex.def Info: ./images//29.png  used on input line 387.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<./images//3.png, id=166, 462.528pt x 346.896pt>
+<./images//3.png, id=168, 462.528pt x 346.896pt>
 File: ./images//3.png Graphic file (type png)
 <use ./images//3.png>
 Package pdftex.def Info: ./images//3.png  used on input line 398.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
  [7 <./images//29.png>]
-<./images//v1Aus.png, id=175, 462.528pt x 346.896pt>
+<./images//v1Aus.png, id=177, 462.528pt x 346.896pt>
 File: ./images//v1Aus.png Graphic file (type png)
 <use ./images//v1Aus.png>
 Package pdftex.def Info: ./images//v1Aus.png  used on input line 410.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<./images//v1AusLog.png, id=177, 462.528pt x 346.896pt>
+<./images//v1AusLog.png, id=179, 462.528pt x 346.896pt>
 File: ./images//v1AusLog.png Graphic file (type png)
 <use ./images//v1AusLog.png>
 Package pdftex.def Info: ./images//v1AusLog.png  used on input line 422.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
  [8 <./images//3.png> <./images//v1Aus.png>]
-<./images//v2Aus.png, id=187, 462.528pt x 346.896pt>
+<./images//v2Aus.png, id=189, 462.528pt x 346.896pt>
 File: ./images//v2Aus.png Graphic file (type png)
 <use ./images//v2Aus.png>
 Package pdftex.def Info: ./images//v2Aus.png  used on input line 433.
@@ -660,7 +664,7 @@ Overfull \hbox (1.85318pt too wide) in paragraph at lines 433--434
 [][] 
  []
 
-<./images//v2AusLog.png, id=188, 462.528pt x 346.896pt>
+<./images//v2AusLog.png, id=190, 462.528pt x 346.896pt>
 File: ./images//v2AusLog.png Graphic file (type png)
 <use ./images//v2AusLog.png>
 Package pdftex.def Info: ./images//v2AusLog.png  used on input line 438.
@@ -680,7 +684,7 @@ Overfull \hbox (0.23492pt too wide) in paragraph at lines 474--478
 \OT1/cmr/m/n/12 nur einen richti-gen Weg be-sitzt. Durch dieses Labyrinth wurde ein K[]afer geschickt,
  []
 
-[10{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [11] (./bug.aux)
+[10{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [11] [12] (./bug.aux)
 Package rerunfilecheck Info: File `bug.out' has not changed.
 (rerunfilecheck)             Checksum: DBC07E164CDA5B2D0996CAF7F05489E0;1108.
 Package logreq Info: Writing requests to 'bug.run.xml'.
@@ -688,18 +692,18 @@ Package logreq Info: Writing requests to 'bug.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19740 strings out of 477985
- 339462 string characters out of 5840058
- 2367388 words of memory out of 5000000
- 39627 multiletter control sequences out of 15000+600000
- 518777 words of font info for 54 fonts, out of 8000000 for 9000
+ 19782 strings out of 477985
+ 340336 string characters out of 5840058
+ 2389388 words of memory out of 5000000
+ 39661 multiletter control sequences out of 15000+600000
+ 518822 words of font info for 54 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  63i,9n,68p,676b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on bug.pdf (12 pages, 389335 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on bug.pdf (13 pages, 392977 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 106 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

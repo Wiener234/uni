@@ -2,9 +2,9 @@
 \usepackage[ngerman]{babel}
 \usepackage{csquotes}
 \usepackage{color}
-% \usepackage[citestyle=verbose,bibstyle=numeric,sorting=nty, backend=biber]{biblatex}
+% \usepackage[doi=false,isbn=false,citestyle=verbose,bibstyle=numeric,sorting=nty, backend=biber]{biblatex}
 
-\usepackage[style=authortitle,sorting=nty, backend=biber]{biblatex}
+\usepackage[doi=false, isbn=false, style=verbose,sorting=nty, backend=biber]{biblatex}
 \renewcommand*{\labelnamepunct}{\addcolon\space} % add : between author and title
 \renewbibmacro*{in:}{\space In:}
 \DeclareFieldFormat*{title}{\mkbibquote{#1}\nopunct}
@@ -140,7 +140,7 @@
 \section{Einführung}
 
 Das Lösen eines Labyrinths mit Hilfe komplexer Algorithmen, welche von höheren Lebensformen angewandt werden können, ist eine Aufgabe in der es inzwischen darum geht Algorithmen zu finden, welche immer schneller und weniger Speicher aufwendig sind.
-Um es zu ermöglichen alltägliche Aufgaben wie die Suche nach der besten Route in den Urlaub oder die effizienteste Route für den Postboten schneller und schneller zu ermöglichen oder Straßennetze effektiver zu planen und bauen und Häuser mit Strom, Wasser und Internet zu versorgen und dabei die Materialien so effizient wie möglich ein zusetzten.
+Um es zu ermöglichen alltägliche Aufgaben wie die Suche nach der besten Route in den Urlaub oder die effizienteste Route für den Postboten schneller und schneller zu ermöglichen oder Straßennetze effektiver zu planen und bauen und Häuser mit Strom, Wasser und Internet zu versorgen und dabei die Materialien so effizient wie möglich einzusetzten.
 
 
 \bigskip
@@ -148,7 +148,7 @@ Um es zu ermöglichen alltägliche Aufgaben wie die Suche nach der besten Route 
 Mit Blick auf niedrigere Lebewesen wie Käfer, Milben und ähnliches kommt die Frage auf ob es möglich ist ein Labyrinth auch mit simplen Algorithmen oder ganz ohne Algorithmen diese zu lösen.
 In dem wissenschaftlichen Artikel "Development of an automatic truntable-type multiple T-maze device and observation of pill bug behavior"\footcite{bug} wird das Bewegungsverhalten von Rollasseln (Armadillidiidae) in einem unendlichen Labyrinth untersucht, um festzustellen, ob einer Wiederholung von Richtungswechseln in die gleiche Richtung eine Fehlfunktion ist.
 Es wird von einer Fehlfunktion gesprochen, da bei Organismen mit simplen Nervensystemen davon ausgegangen wird, dass diese Entscheidungen mechanisch getroffen werden.
-In der Studie zeigt aber, dass eine wiederholte Drehung in eine Richtung in Maßen angewandt wird um einen Bewegungsablauf aus zu führen.
+Die Studie zeigt aber, dass eine wiederholte Drehung in eine Richtung in Maßen angewandt wird um einen Bewegungsablauf aus zu führen.
 
 \bigskip
 
@@ -160,37 +160,38 @@ Um in einem Labyrinth mit mehreren Lösungswegen den besseren zu finden, ist es 
 
 \bigskip
 
-Ergebnisse dieses Experiments können genutzt werden um vergleiche für das Denkverhalten von Lebewesen zu haben.
+Ergebnisse dieses Experiments können genutzt werden um vergleiche für das Denkverhalten von Lebewesen zu erhalten.
 So kann man feststellen ob simplere Lebewesen sich nach einem Muster bewegen oder zufällig ein Labyrinth lösen, indem man den Durchschnitt der benötigten Zeit von mehren Durchläufen mit den Daten dieses Experiments vergleicht.
-Was hilft Entscheidungen dieser Lebewesen in der Umwelt nachzuvollziehen.
+Was helfen kann Entscheidungen dieser Lebewesen in der Umwelt nachzuvollziehen.
 
 \newpage
 
 \section{Problem}
 
-Die folgenden Seiten befassen sich mit Problem ein Labyrinth zu lösen.
+Die folgenden Seiten befassen sich mit dem Problem ein Labyrinth zu lösen.
 Dabei soll ein Käfer dieses Labyrinth durchlaufen, während dieses Durchlaufs werden die Anzahl der Schritte sowie die Zeit die der Käfer benötigt gemessen.
 Ein Schritt findet statt, wenn der Käfer eine Position im Labyrinth weitergeht.
-Eine Zeiteinheit verstreicht, wenn der Käfer eine Aktion \\ durchführt, wobei eine Aktion ein Schritt sein kann oder das Prüfen ob ein Schritt möglich ist.
+Eine Zeiteinheit verstreicht, wenn der Käfer eine Aktion durchführt, wobei eine Aktion ein Schritt sein kann oder das Prüfen ob ein Schritt möglich ist.
 Dieser Versuch wird in zwei Variationen durchgeführt, in der ersten Variation ist es dem Käfer möglich in alle vier Himmelsrichtung zu laufen.
 In der zweiten Variation kann der Käfer aber nicht rückwärts gehen und muss sich somit drehen, dies erhöht die Zeit ebenfalls.
+Diese Variationen werden im weiteren Verlauf als erster und zweiter Versuch bezeichnet.
 
 \bigskip
 
 In diesem Experiment gilt es, herauszufinden wie sich die Größe des Labyrinths auf die Zeit und die Schritte, welche der Käfer benötigt auswirken.
 Genauer wird geguckt in welchem Verhältnis Schritte und Zeit in einem einzelnen Durchlauf stehen und in welchem Verhältnis sie in Durchläufen mit unterschiedlich großen Labyrinthen stehen.
 Darauf hin gilt es die Ergebnisse der ersten Variante mit denen der zweiten Variante zu vergleichen.
-Um das Experiment erfolgreich durchführen zu können, gilt es sicherzustellen, dass das Labyrinth auch lösbar ist, also ein Weg zwischen Start und Ziel immer besteht.
+Um das Experiment erfolgreich durchführen zu können, ist vorauszusetzen, dass das Labyrinth auch lösbar ist, also ein Weg zwischen Start und Ziel immer besteht.
 Aber nicht nur das Labyrinth muss an sich lösbar sein, auch der Käfer muss mit einer simplen Bewegungsabfolge durch das Labyrinth kommen ohne sich an einer Stelle im Kreis zu drehen oder sich gar nicht mehr zu bewegen.
 Dem ist hinzuzufügen, dass im nicht Kreisdrehen heißt das er irgendwann aus diesem Kreis wieder heraus kommt, nicht das er nicht öfters die gleiche Strecke ablaufen darf.
 
 \bigskip
 
-Der Versuch ein Labyrinth, sie dies nun die Vernetzung im Internet, die fahrt durch die Stadt oder das Labyrinth auf dem Jahrmarkt, ist eine Aufgabe die der Mensch oder ein anderes Lebewesen nicht so effizient wie der Computer lösen kann.
+Der Versuch ein Labyrinth zu lösen, sei dies nun die Vernetzung im Internet, die fahrt durch die Stadt oder das Labyrinth auf dem Jahrmarkt, ist eine Aufgabe die der Mensch oder ein anderes Lebewesen nicht so effizient wie der Computer bewäligen kann.
 Somit ist es von Vorteil ein Algorithmus zu finden der angewandt werden kann um ein Labyrinth jeglicher Form auf einfachste weise zu lösen. 
 Der einfachste Weg ist es einfach solang durch die Gegend zu laufen bis man an seinem Ziel angekommen ist.
 Das Problem an dieser Sache ist, dass es bei großen Labyrinthen lange dauern kann und um herauszufinden wie lange es dauern kann, gilt es zu finden wie sich die Zeit zum lösen eines Labyrinths zu dessen Größe verhält.
-Betrachtet man nun das Problem der Labyrinthlösung im Tierreich stösst man auf Limitationen wie die Unfähigkeit einiger Tiere sich rückwärts zu bewegen. Sollte ein Lebewesen mit dieser Einschränkung ein Labyrinth lösen müssen. Muss es sich erst drehen, bevor es rückwärts gehen kann. Was bedeutet das es wahrscheinlicher nur vorwärts geht. Zu wissen welche weise effektiver ist und wo die Vor- und Nachteile liegen kann nicht nur in der Entwicklung von Algorithmen zum lösen von Labyrinthen helfen sondern auch dabei Verhaltensweisen von Tieren zu erklären.
+Betrachtet man nun das Problem der Labyrinthlösung im Tierreich stösst man auf Limitationen wie die Unfähigkeit einiger Tiere sich rückwärts zu bewegen. Sollte ein Lebewesen mit dieser Einschränkung ein Labyrinth lösen müssen. Muss es sich erst drehen, bevor es rückwärts gehen kann. Was bedeutet das es wahrscheinlicher nur vorwärts geht. Zu wissen welche Weise effektiver ist und wo die Vor- und Nachteile liegen kann nicht nur in der Entwicklung von Algorithmen zum lösen von Labyrinthen helfen sondern auch dabei Verhaltensweisen von Tieren zu erklären.
 
 
 \newpage
@@ -206,20 +207,19 @@ Weiter hin sollen die Labyrinthe zufällig erzeugt werden, um den Ablauf des Pro
 
 \bigskip
 
-Ein Labyrinth ist wie in 2.
-erklärt zu verstehen.
+Ein Labyrinth ist wie in 2. erklärt zu verstehen.
 Um ein perfektes Labyrinth aus einem Graphen zu erzeugen, muss man einen Spannbaum aus diesem Graphen finden.
-Um dies zu tun gibt es 11 verschiedene Algorithmen.
+Um dies zu tun gibt es verschiedene Algorithmen.
 Des weiteren wird sich mit dem Kruskal Algorithmus befasst.
 
 
 \bigskip
 
-Der Kurskal Algorithmus findet in einem gewichteten Graphen den minimalen Spannbaum, in dem er die minimale Summe aller Gewichte findet und die Konten so verbindet.
-Dabei fängt er mit dem niedrigsten Gewicht an und verbindet die zwei Konten zu einem Baum.
-Dieser Schritt wird nun wiederholt, bis alle Konten mit einander verbunden sind.
-Sollte währenddessen ein Konten mit einem Baum oder ein Baum mit einem Baum verbunden werden, so werden diese zu einem einzigen Baum zusammen gefasst.
-Dabei ist aber zu beachten, dass nur Konten mit einander verbunden werden, wenn diese nicht im gleichen Baum sind.
+Der Kurskal Algorithmus findet in einem gewichteten Graphen den minimalen Spannbaum, in dem er die minimale Summe aller Gewichte findet und die Knoten so verbindet \footcite{maze}.
+Dabei fängt er mit dem niedrigsten Gewicht an und verbindet die zwei Knoten zu einem Baum.
+Dieser Schritt wird nun wiederholt, bis alle Knoten miteinander verbunden sind.
+Sollte währenddessen ein Knoten mit einem Baum oder ein Baum mit einem Baum verbunden werden, so werden diese zu einem einzigen Baum zusammen gefasst.
+Dabei ist aber zu beachten, dass nur Knoten mit einander verbunden werden, wenn diese nicht im gleichen Baum sind.
 Da sonst eine Schleife entstehen würde.
 Dadurch entsteht am Ende ein minimaler Spannbaum auf dem Graphen.
  
@@ -227,13 +227,13 @@ Dadurch entsteht am Ende ein minimaler Spannbaum auf dem Graphen.
 \bigskip
 
 Um ein Labyrinth zu erstellen sind die Gewichte der Kanten nicht weiter relevant, wodurch man sie weg lassen kann.
-Das führt dazu, dass die Knoten nicht anhand der Gewichte verbunden werden, sonder zufällig zwei Kontenpaare ausgewählt werden und anschließend verbunden.
+Das führt dazu, dass die Knoten nicht anhand der Gewichte verbunden werden, sonder zufällig zwei Knotenpaare ausgewählt werden und anschließend verbunden.
 Es entsteht ein zufälliger Kruskal Algorithmus.
 Die Umsetzung erfolgt wie folgt.
 
 
 Es wird die Höhe und Breite des Labyrinths verdoppelt um die Wände einzufügen und eins addiert um das Labyrinth auf allen Seiten mit Wänden zu umfassen.
-Folgend werden nochmal zwei addiert um die Aussenwände "zwei dick" zu machen.(Dies wird später erklärt.)
+Folgend werden nochmal zwei addiert um die Außenwände \textquote{zwei dick} zu machen. Dies ist nötig, da beim Lösen des Labyrinths Schritte über zwei Felder getan werden und an den Ränder sonnst das Labyrinth verlassen wird.
 \begin{lstlisting}[language = Python]
 # Bug.py
 def __init__(self, h, w):
@@ -243,9 +243,9 @@ def __init__(self, h, w):
 \end{lstlisting}
 
 Anschließend wird ein Gitter aus Einsen erstellt und in der dritten Zeile und Spalte die Eins auf Null gesetzt um einen Knoten zu symbolisieren.
-Dies wird mit einer Lücke von Eins nach rechts und unten fortgesetzt und einer Liste an Konten hinzugefügt.
+Dies wird mit einer Lücke von Eins nach rechts und unten fortgesetzt und einer Liste an Knoten hinzugefügt.
 Anschließend werden alle verbleibenden Einsen als Kanten einer Liste hinzugefügt.
-Zu letzt werden die Kanten gemischt.
+Zuletzt werden die Kanten gemischt.
 
 \begin{lstlisting}[language = Python]
 # Bug.py
@@ -271,8 +271,8 @@ def generate(self):
 \end{lstlisting}
 
 Aus der Liste der Kanten wird solange das erste Element heraus genommen, bis die Länge der Knoten Eins beträgt.
-Das herausgenommenen Element wird geprüft ob es Konten über und unter sich oder links und rechts von sich hat.
-Anschließend wird die Position der Knoten in der Liste der Konten aufaddiert und in tree1 und tree2 gespeichert.
+Das herausgenommenen Element wird geprüft ob es Knoten über und unter sich oder links und rechts von sich hat.
+Anschließend wird die Position der Knoten in der Liste der Knoten aufaddiert und in tree1 und tree2 gespeichert.
 
 \begin{lstlisting}[language = Python]
 # Bug.py
@@ -361,7 +361,7 @@ Somit konnten zwar mit Glück kleinere Labyrinthe gelöst werden aber dies gesch
 \bigskip
 
 Der dritte Versuch basiert auch auf dem Prüfen der Richtung im Uhrzei-gersinn, nur das in diesem die Ausgangsrichtung zufällig gewählt wird.
-Dazu wird eine Zahl zufällig mit der in Python verbauten random Bibliothek erzeugt welches als ihren Kern den Mersenne Twister Generator verwendet.
+Dazu wird eine Zahl zufällig mit der in Python verbauten random Bibliothek erzeugt.
 Dies zufällige Zahl zwischen 0 und 3 entspricht jeweils einer Richtung, wobei 0 für rechts steht und von dort aus im Uhrzeigersinn gegangen wird.
 In dem Versuch wo der Käfer nicht rückwärts laufen kann, wird, wenn er rückwärts laufen muss, der Käfer einmal rotiert, anschließend prüft er nach vorne und bewegt sich dann zur Seite.
 Auf diese Weise liessen sich alle Labyrinthgrößen lösen mit denen getestet wurde.
@@ -494,6 +494,8 @@ Dies erwies sich jedoch als nicht möglich, da mir drei Daten der Labyrinthgrö�
 Ebenfalls geplant war es bis zu einer Labyrinthgröße von 50 zu testen.
 Dies war ebenfalls nicht möglich, da nach Labyrinthgröße 38 im ersten Versuch und Lagyrinthgröße 41 im zweiten Versuch die für das Programm verfügbaren CPU Kerne zu 100\% genutzt waren und das Programm nicht weiter lief.
 Das letzte Problem war, das durch einen Fehler im Code die Daten 100 mal in der selben Datei gespeichert wurden anstatt einmal.
+
+\newpage
 
 \printbibliography 
 

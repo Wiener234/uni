@@ -19,44 +19,69 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{maze}{book}{}
+      \name{author}{1}{}{%
+        {{hash=edb3f6ef1b25da73d6b6eb83de3adf67}{%
+           family={Jamis},
+           familyi={J\bibinitperiod},
+           given={Buck},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Raleigh}%
+      }
+      \list{publisher}{1}{%
+        {Pragmatic Bookshelf}%
+      }
+      \strng{namehash}{edb3f6ef1b25da73d6b6eb83de3adf67}
+      \strng{fullhash}{edb3f6ef1b25da73d6b6eb83de3adf67}
+      \strng{bibnamehash}{edb3f6ef1b25da73d6b6eb83de3adf67}
+      \strng{authorbibnamehash}{edb3f6ef1b25da73d6b6eb83de3adf67}
+      \strng{authornamehash}{edb3f6ef1b25da73d6b6eb83de3adf67}
+      \strng{authorfullhash}{edb3f6ef1b25da73d6b6eb83de3adf67}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-68050-055-4}
+      \field{subtitle}{Code Your Own Twisty Little Passages}
+      \field{title}{Mazes for Programmers}
+      \field{year}{2015}
+      \field{pages}{158\bibrangedash 163}
+      \range{pages}{6}
+    \endentry
     \entry{bug}{article}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=fa9776a7318ee6174f2544099a9c88d3}{%
+        {{hash=fa9776a7318ee6174f2544099a9c88d3}{%
            family={Shokaku},
            familyi={S\bibinitperiod},
            given={Takaharu},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1af855a6a2e7934ea51a7994228e6319}{%
+           giveni={T\bibinitperiod}}}%
+        {{hash=1af855a6a2e7934ea51a7994228e6319}{%
            family={Moriyama},
            familyi={M\bibinitperiod},
            given={Toru},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=13e4d6c55146ebab1b608577b2b97422}{%
+           giveni={T\bibinitperiod}}}%
+        {{hash=13e4d6c55146ebab1b608577b2b97422}{%
            family={Murakami},
            familyi={M\bibinitperiod},
            given={Hisashi},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c21e6714610c37f156dc6f5900fbf25d}{%
+           giveni={H\bibinitperiod}}}%
+        {{hash=c21e6714610c37f156dc6f5900fbf25d}{%
            family={Shinohara},
            familyi={S\bibinitperiod},
            given={Shuji},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8b46ef20af226908645a6c74e3c26eab}{%
+           giveni={S\bibinitperiod}}}%
+        {{hash=8b46ef20af226908645a6c74e3c26eab}{%
            family={Manome},
            familyi={M\bibinitperiod},
            given={Nobuhito},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75225f71db249d6c06a02ff8fe0cb282}{%
+           giveni={N\bibinitperiod}}}%
+        {{hash=75225f71db249d6c06a02ff8fe0cb282}{%
            family={Morioka},
            familyi={M\bibinitperiod},
            given={Kazuyuki},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
+           giveni={K\bibinitperiod}}}%
       }
       \strng{namehash}{0105dbf1e41a54a7da6b88c1089f4178}
       \strng{fullhash}{85183cf40199621cb4cc1300c5ff89ae}
