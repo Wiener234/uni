@@ -1,16 +1,17 @@
 # Fdb version 4
-["biber bug"] 1691747761 "bug.bcf" "bug.bbl" "bug" 1691747883 0
+["biber bug"] 1691747761 "bug.bcf" "bug.bbl" "bug" 1691749489 0
   "./bibliography.bib" 1691747750 677 4233cd345b794505f5d92b21bc5f8aa2 ""
-  "bug.bcf" 1691747883 107746 f7d046f1e3dfd1794872fefde9480666 "pdflatex"
+  "bug.bcf" 1691749489 107746 f7d046f1e3dfd1794872fefde9480666 "pdflatex"
   (generated)
   "bug.bbl"
   "bug.blg"
   (rewritten before read)
-["pdflatex"] 1691747880 "bug.tex" "bug.pdf" "bug" 1691747883 0
+["pdflatex"] 1691749487 "bug.tex" "bug.pdf" "bug" 1691749489 0
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1689853683 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1689853683 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1689853683 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1689853683 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1689853683 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1689853683 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1689853683 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1689853683 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -26,10 +27,10 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1689853683 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1689853683 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1689853683 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1689853683 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1689853683 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1689853683 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1689853683 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1689853683 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1689853683 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1689853683 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1689853683 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
@@ -118,12 +119,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1690284069 4483110 adb1e1d04498b9576f1f17c4219c5e03 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1690284052 6768055 83a437fae76ef05e1a2b7922e13def41 ""
-  "bug.aux" 1691747883 3335 d04e96e1ef8ddf980a732b3088e9c1fa "pdflatex"
+  "bug.aux" 1691749489 3335 d04e96e1ef8ddf980a732b3088e9c1fa "pdflatex"
   "bug.bbl" 1691747763 3780 2331ab738b0ed7c6372562ddb553105e "biber bug"
-  "bug.out" 1691747883 1108 dbc07e164cda5b2d0996caf7f05489e0 "pdflatex"
-  "bug.run.xml" 1691747883 2365 23407e8204f8d6e91c6104ded2ce2237 "pdflatex"
-  "bug.tex" 1691747873 27474 b8b24410e9dec3948c29b0b58db238b9 ""
-  "bug.toc" 1691747883 698 db02bd60fa294007f09a0fba1dc44624 "pdflatex"
+  "bug.out" 1691749489 1108 dbc07e164cda5b2d0996caf7f05489e0 "pdflatex"
+  "bug.run.xml" 1691749489 2365 23407e8204f8d6e91c6104ded2ce2237 "pdflatex"
+  "bug.tex" 1691749486 28169 43da77866e816eb9fedbf1f92c745a95 ""
+  "bug.toc" 1691749489 698 db02bd60fa294007f09a0fba1dc44624 "pdflatex"
   "images//29.png" 1691591394 21903 b47ca6c6e8040b3ee92fb498ebcea523 ""
   "images//3.png" 1691591377 48228 c774c331d00ca4b64e94d18a02c31413 ""
   "images//v1Aus.png" 1691591431 40983 7c70ea01a68dd9a51efaa03a218304af ""

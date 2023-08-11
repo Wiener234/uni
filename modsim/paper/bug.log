@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.25)  11 AUG 2023 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.25)  11 AUG 2023 12:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,10 +589,6 @@ Package hyperref Info: Link coloring ON on input line 105.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count423
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 108.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 108.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./bug.toc
@@ -610,77 +606,79 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \newpage
+l.165 \newpage
                [1]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 149.
+(Font)              <7> on input line 176.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 176.
 
-Overfull \hbox (8.83623pt too wide) in paragraph at lines 155--160
+Overfull \hbox (8.83623pt too wide) in paragraph at lines 182--187
 \OT1/cmr/m/n/12 Graphen wird und die Strecke zwis-chen diesen Kreuzun-gen zu Kan-ten im Labyrinth.
  []
 
 
-Overfull \hbox (15.6792pt too wide) in paragraph at lines 155--160
+Overfull \hbox (15.6792pt too wide) in paragraph at lines 182--187
 \OT1/cmr/m/n/12 und Kan-ten ge-fun-den wer-den welche zwis-chen dem Start und dem Ziel des Labyrinths
  []
 
 [2] [3] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Overfull \hbox (12.40703pt too wide) in paragraph at lines 235--237
+Overfull \hbox (12.40703pt too wide) in paragraph at lines 262--264
 []\OT1/cmr/m/n/12 Es wird die H[]ohe und Bre-ite des Labyrinths ver-dop-pelt um die W[]ande einzuf[]ugen
  []
 
 [4] [5] [6]
-<./images//29.png, id=165, 462.528pt x 346.896pt>
+<./images//29.png, id=166, 462.528pt x 346.896pt>
 File: ./images//29.png Graphic file (type png)
 <use ./images//29.png>
-Package pdftex.def Info: ./images//29.png  used on input line 387.
+Package pdftex.def Info: ./images//29.png  used on input line 414.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<./images//3.png, id=168, 462.528pt x 346.896pt>
+<./images//3.png, id=169, 462.528pt x 346.896pt>
 File: ./images//3.png Graphic file (type png)
 <use ./images//3.png>
-Package pdftex.def Info: ./images//3.png  used on input line 398.
+Package pdftex.def Info: ./images//3.png  used on input line 425.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
  [7 <./images//29.png>]
-<./images//v1Aus.png, id=177, 462.528pt x 346.896pt>
+<./images//v1Aus.png, id=178, 462.528pt x 346.896pt>
 File: ./images//v1Aus.png Graphic file (type png)
 <use ./images//v1Aus.png>
-Package pdftex.def Info: ./images//v1Aus.png  used on input line 410.
+Package pdftex.def Info: ./images//v1Aus.png  used on input line 437.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<./images//v1AusLog.png, id=179, 462.528pt x 346.896pt>
+<./images//v1AusLog.png, id=180, 462.528pt x 346.896pt>
 File: ./images//v1AusLog.png Graphic file (type png)
 <use ./images//v1AusLog.png>
-Package pdftex.def Info: ./images//v1AusLog.png  used on input line 422.
+Package pdftex.def Info: ./images//v1AusLog.png  used on input line 449.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
  [8 <./images//3.png> <./images//v1Aus.png>]
-<./images//v2Aus.png, id=189, 462.528pt x 346.896pt>
+<./images//v2Aus.png, id=190, 462.528pt x 346.896pt>
 File: ./images//v2Aus.png Graphic file (type png)
 <use ./images//v2Aus.png>
-Package pdftex.def Info: ./images//v2Aus.png  used on input line 433.
+Package pdftex.def Info: ./images//v2Aus.png  used on input line 460.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
 
-Overfull \hbox (1.85318pt too wide) in paragraph at lines 433--434
+Overfull \hbox (1.85318pt too wide) in paragraph at lines 460--461
 [][] 
  []
 
-<./images//v2AusLog.png, id=190, 462.528pt x 346.896pt>
+<./images//v2AusLog.png, id=191, 462.528pt x 346.896pt>
 File: ./images//v2AusLog.png Graphic file (type png)
 <use ./images//v2AusLog.png>
-Package pdftex.def Info: ./images//v2AusLog.png  used on input line 438.
+Package pdftex.def Info: ./images//v2AusLog.png  used on input line 465.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
 
-Overfull \hbox (1.85318pt too wide) in paragraph at lines 438--439
+Overfull \hbox (1.85318pt too wide) in paragraph at lines 465--466
 [][] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 432--442
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 459--469
 []$[]$ $[]$ 
  []
 
 [9 <./images//v1AusLog.png> <./images//v2Aus.png> <./images//v2AusLog.png>]
-Overfull \hbox (0.23492pt too wide) in paragraph at lines 474--478
+Overfull \hbox (0.23492pt too wide) in paragraph at lines 501--505
 \OT1/cmr/m/n/12 nur einen richti-gen Weg be-sitzt. Durch dieses Labyrinth wurde ein K[]afer geschickt,
  []
 
@@ -692,15 +690,15 @@ Package logreq Info: Writing requests to 'bug.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19782 strings out of 477985
- 340336 string characters out of 5840058
+ 19786 strings out of 477985
+ 340389 string characters out of 5840058
  2389388 words of memory out of 5000000
- 39661 multiletter control sequences out of 15000+600000
- 518822 words of font info for 54 fonts, out of 8000000 for 9000
+ 39664 multiletter control sequences out of 15000+600000
+ 519463 words of font info for 56 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  63i,9n,68p,676b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on bug.pdf (13 pages, 392977 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on bug.pdf (13 pages, 395944 bytes).
 PDF statistics:
  312 PDF objects out of 1000 (max. 8388607)
  256 compressed objects within 3 object streams
