@@ -166,30 +166,29 @@
 
 \section{Einführung}
 
-Das Lösen eines Labyrinths mit Hilfe komplexer Algorithmen, welche von höheren Lebensformen angewandt werden können, ist eine Aufgabe in der es inzwischen darum geht Algorithmen zu finden, welche immer schneller und weniger Speicher aufwendig sind.
+Das Lösen eines Labyrinths mit Hilfe komplexer Algorithmen, welche von höheren Lebensformen angewandt werden können, ist eine Aufgabe in der es inzwischen darum geht Algorithmen zu finden, welche immer schneller und weniger speicheraufwendig sind.
 Um es zu ermöglichen alltägliche Aufgaben wie die Suche nach der besten Route in den Urlaub oder die effizienteste Route für den Postboten schneller und schneller zu ermöglichen oder Straßennetze effektiver zu planen und bauen und Häuser mit Strom, Wasser und Internet zu versorgen und dabei die Materialien so effizient wie möglich einzusetzten.
 
 
 \bigskip
 
-Mit Blick auf niedrigere Lebewesen wie Käfer, Milben und ähnliches kommt die Frage auf ob es möglich ist ein Labyrinth auch mit simplen Algorithmen oder ganz ohne Algorithmen diese zu lösen.
-In dem wissenschaftlichen Artikel "Development of an automatic truntable-type multiple T-maze device and observation of pill bug behavior"\footcite{bug} wird das Bewegungsverhalten von Rollasseln (Armadillidiidae) in einem unendlichen Labyrinth untersucht, um festzustellen, ob einer Wiederholung von Richtungswechseln in die gleiche Richtung eine Fehlfunktion ist.
-Es wird von einer Fehlfunktion gesprochen, da bei Organismen mit simplen Nervensystemen davon ausgegangen wird, dass diese Entscheidungen mechanisch getroffen werden.
+Mit Blick auf niedrigere Lebewesen wie Käfer, Milben und ähnliches kommt die Frage auf ob es möglich ist ein Labyrinth auch mit simplen Algorithmen oder ganz ohne Algorithmen zu lösen.
+In dem wissenschaftlichen Artikel "Development of an automatic truntable-type multiple T-maze device and observation of pill bug behavior"\footcite{bug} wird das Bewegungsverhalten von Rollasseln (Armadillidiidae) in einem endlichen Labyrinth untersucht, um festzustellen, ob einer Wiederholung von Richtungswechseln in die gleiche Richtung eine Fehlfunktion ist.
+Es wird von einer Fehlfunktion gesprochen, da bei Organismen mit simplen Nervensystemen davon ausgegangen wird, dass diese Entscheidungen mechanisch/instinktiv getroffen werden.
 Die Studie zeigt aber, dass eine wiederholte Drehung in eine Richtung in Maßen angewandt wird um einen Bewegungsablauf aus zu führen.
 
 \bigskip
 
 Um Labyrinthe zu lösen werden Algorithmen bewusst oder unbewusst angewandt.
-So werden für Computeralgorithmen Labyrinthe in Graphen umgewandelt, wobei jede Kreuzung im Labyrinth zu einem Knoten im \\ Graphen wird und die Strecke zwischen diesen Kreuzungen zu Kanten im Labyrinth.
-Um nun den das Labyrinth zu lösen muss lediglich die Kombination von Knoten und Kanten gefunden werden welche zwischen dem Start und dem Ziel des Labyrinths liegen.
+So werden für Computeralgorithmen Labyrinthe in Graphen umgewandelt, wobei jede Kreuzung im Labyrinth zu einem Knoten im Graphen wird und die Strecke zwischen diesen Kreuzungen zu Kanten im Labyrinth.
+Um nun den das Labyrinth zu lösen muss lediglich die kürzeste Kombination von Knoten und Kanten gefunden werden welche zwischen dem Start und dem Ziel des Labyrinths liegen.
 Auf dieser Grundlage kann man die verschiedensten Suchalgorithmen aus der Graphentheorie anwenden um die Verbindung zwischen den zwei Knoten zu finden.
 Um in einem Labyrinth mit mehreren Lösungswegen den besseren zu finden, ist es möglich die Kanten zu gewichten, ihnen Werte basierend auf bestimmten Eigenschaften zuzuweisen, wie zum Beispiel die Länge des Weges oder die Schwierigkeit diesen zu passieren.
 
 \bigskip
 
-Ergebnisse dieses Experiments können genutzt werden um vergleiche für das Denkverhalten von Lebewesen zu erhalten.
-So kann man feststellen ob simplere Lebewesen sich nach einem Muster bewegen oder zufällig ein Labyrinth lösen, indem man den Durchschnitt der benötigten Zeit von mehren Durchläufen mit den Daten dieses Experiments vergleicht.
-Was helfen kann Entscheidungen dieser Lebewesen in der Umwelt nachzuvollziehen.
+Ergebnisse dieses Experiments können genutzt werden um Vergleiche für das Denkverhalten von Lebewesen zu erhalten.
+So kann man feststellen ob simplere Lebewesen sich nach einem Muster bewegen oder zufällig ein Labyrinth lösen, indem man den Durchschnitt der benötigten Zeit von mehren Durchläufen mit den Daten dieses Experiments vergleicht, was helfen kann Entscheidungen dieser Lebewesen in der Umwelt nachzuvollziehen.
 
 \newpage
 
@@ -199,7 +198,7 @@ Die folgenden Seiten befassen sich mit dem Problem ein Labyrinth zu lösen.
 Dabei soll ein Käfer dieses Labyrinth durchlaufen, während dieses Durchlaufs werden die Anzahl der Schritte sowie die Zeit die der Käfer benötigt gemessen.
 Ein Schritt findet statt, wenn der Käfer eine Position im Labyrinth weitergeht.
 Eine Zeiteinheit verstreicht, wenn der Käfer eine Aktion durchführt, wobei eine Aktion ein Schritt sein kann oder das Prüfen ob ein Schritt möglich ist.
-Dieser Versuch wird in zwei Variationen durchgeführt, in der ersten Variation ist es dem Käfer möglich in alle vier Himmelsrichtung zu laufen.
+Dieser Versuch wird in zwei Variationen durchgeführt. In der ersten Variation ist es dem Käfer möglich in alle vier Himmelsrichtung zu laufen.
 In der zweiten Variation kann der Käfer aber nicht rückwärts gehen und muss sich somit drehen, dies erhöht die Zeit ebenfalls.
 Diese Variationen werden im weiteren Verlauf als erster und zweiter Versuch bezeichnet.
 
@@ -210,15 +209,15 @@ Genauer wird geguckt in welchem Verhältnis Schritte und Zeit in einem einzelnen
 Darauf hin gilt es die Ergebnisse der ersten Variante mit denen der zweiten Variante zu vergleichen.
 Um das Experiment erfolgreich durchführen zu können, ist vorauszusetzen, dass das Labyrinth auch lösbar ist, also ein Weg zwischen Start und Ziel immer besteht.
 Aber nicht nur das Labyrinth muss an sich lösbar sein, auch der Käfer muss mit einer simplen Bewegungsabfolge durch das Labyrinth kommen ohne sich an einer Stelle im Kreis zu drehen oder sich gar nicht mehr zu bewegen.
-Dem ist hinzuzufügen, dass im nicht Kreisdrehen heißt das er irgendwann aus diesem Kreis wieder heraus kommt, nicht das er nicht öfters die gleiche Strecke ablaufen darf.
+Dem ist hinzuzufügen, dass im nicht Kreisdrehen heißt, dass er irgendwann aus diesem Kreis wieder heraus kommt und nicht, dass er nicht öfters die gleiche Strecke ablaufen darf.
 
 \bigskip
 
-Der Versuch ein Labyrinth zu lösen, sei dies nun die Vernetzung im Internet, die fahrt durch die Stadt oder das Labyrinth auf dem Jahrmarkt, ist eine Aufgabe die der Mensch oder ein anderes Lebewesen nicht so effizient wie der Computer bewäligen kann.
-Somit ist es von Vorteil ein Algorithmus zu finden der angewandt werden kann um ein Labyrinth jeglicher Form auf einfachste weise zu lösen. 
+Der Versuch ein Labyrinth zu lösen, sei dies nun die Vernetzung im Internet, die Fahrt durch die Stadt oder das Labyrinth auf dem Jahrmarkt, ist eine Aufgabe die der Mensch oder ein anderes Lebewesen nicht so effizient wie der Computer bewäligen kann.
+Somit ist es von Vorteil ein Algorithmus zu finden der angewandt werden kann um ein Labyrinth jeglicher Form auf einfachste Weise zu lösen. 
 Der einfachste Weg ist es einfach solang durch die Gegend zu laufen bis man an seinem Ziel angekommen ist.
 Das Problem an dieser Sache ist, dass es bei großen Labyrinthen lange dauern kann und um herauszufinden wie lange es dauern kann, gilt es zu finden wie sich die Zeit zum lösen eines Labyrinths zu dessen Größe verhält.
-Betrachtet man nun das Problem der Labyrinthlösung im Tierreich stösst man auf Limitationen wie die Unfähigkeit einiger Tiere sich rückwärts zu bewegen. Sollte ein Lebewesen mit dieser Einschränkung ein Labyrinth lösen müssen. Muss es sich erst drehen, bevor es rückwärts gehen kann. Was bedeutet das es wahrscheinlicher nur vorwärts geht. Zu wissen welche Weise effektiver ist und wo die Vor- und Nachteile liegen kann nicht nur in der Entwicklung von Algorithmen zum lösen von Labyrinthen helfen sondern auch dabei Verhaltensweisen von Tieren zu erklären.
+Betrachtet man nun das Problem der Labyrinthlösung im Tierreich stösst man auf Limitationen wie die Unfähigkeit einiger Tiere sich rückwärts zu bewegen. Sollte ein Lebewesen mit dieser Einschränkung ein Labyrinth lösen müssen, muss es sich erst drehen, bevor es rückwärts gehen kann. Was bedeutet, dass es wahrscheinlicher nur vorwärts geht. Zu wissen welche Weise effektiver ist und wo die Vor- und Nachteile liegen kann nicht nur in der Entwicklung von Algorithmen zum Lösen von Labyrinthen helfen sondern auch dabei Verhaltensweisen von Tieren zu erklären.
 
 
 \newpage
@@ -230,14 +229,14 @@ Betrachtet man nun das Problem der Labyrinthlösung im Tierreich stösst man auf
 Um dem Käfer die Möglichkeit zu geben das Labyrinth in jedem Fall lösen zu können, muss dieses ein "perfektes" Labyrinth sein.
 Das heißt, dass es möglich ist von jedem Punkt im Labyrinth zu jedem anderen zu kommen.
 Zudem hat dieses Labyrinth weder Schleifen noch Pfade die sich kreuzen.
-Weiter hin sollen die Labyrinthe zufällig erzeugt werden, um den Ablauf des Programms zu vereinfachen und so wenig wie mögliche Durchläufe auf dem gleichen Labyrinth zu haben.
+Weiterhin sollen die Labyrinthe zufällig erzeugt werden, um den Ablauf des Programms zu vereinfachen und so wenig wie mögliche Durchläufe auf dem gleichen Labyrinth zu haben.
 
 \bigskip
 
-Ein Labyrinth ist wie in 2. erklärt zu verstehen.
+Ein Labyrinth ist wie in Kapitel 2 erklärt zu verstehen.
 Um ein perfektes Labyrinth aus einem Graphen zu erzeugen, muss man einen Spannbaum aus diesem Graphen finden.
 Um dies zu tun gibt es verschiedene Algorithmen.
-Des weiteren wird sich mit dem Kruskal Algorithmus befasst.
+Desweiteren wird sich mit dem Kruskal Algorithmus befasst.
 
 
 \bigskip
@@ -246,8 +245,7 @@ Der Kurskal Algorithmus findet in einem gewichteten Graphen den minimalen Spannb
 Dabei fängt er mit dem niedrigsten Gewicht an und verbindet die zwei Knoten zu einem Baum.
 Dieser Schritt wird nun wiederholt, bis alle Knoten miteinander verbunden sind.
 Sollte währenddessen ein Knoten mit einem Baum oder ein Baum mit einem Baum verbunden werden, so werden diese zu einem einzigen Baum zusammen gefasst.
-Dabei ist aber zu beachten, dass nur Knoten mit einander verbunden werden, wenn diese nicht im gleichen Baum sind.
-Da sonst eine Schleife entstehen würde.
+Dabei ist aber zu beachten, dass nur Knoten mit einander verbunden werden, wenn diese nicht im gleichen Baum sind, da sonst eine Schleife entstehen würde.
 Dadurch entsteht am Ende ein minimaler Spannbaum auf dem Graphen.
  
 
@@ -358,7 +356,7 @@ Nach dem das Labyrinth erzeugt wurde liegt eine Liste von Listen mit Nullen und 
 
 \bigskip
 
-Um nun das Labyrinth durchlaufen zu können, wird als Startpunkt die obere linke Ecke gewählt und als Ziel die untere rechte Ecke.Des weiteren gilt es zu beachten, dass eine Bewegung immer um zwei Felder passiert, da die Wände ebenfalls als Feld gewertet werden.
+Um nun das Labyrinth durchlaufen zu können, wird als Startpunkt die obere linke Ecke gewählt und als Ziel die untere rechte Ecke. Desweiteren gilt es zu beachten, dass eine Bewegung immer um zwei Felder passiert, da die Wände ebenfalls als Feld gewertet werden.
 Wir also bei einem 3x3 Feld bis zu fünf Schritten in eine Richtung laufen könnten, statt 3.
 
 \bigskip
@@ -367,7 +365,7 @@ Im ersten Versuch einen simplen Bewegungsablauf zu finden bestand der Versuch da
 Ist dies der Fall wird die nächste Richtung geprüft, ansonsten bewegt sich der Käfer ein Feld in diese Richtung.
 
 
-Bei diesem Versuch trat jedoch das Problem auf das der Käfer das Labyrinth nicht lösen kann, da er sobald er nach unten geht im nächsten schritt zwingend wieder nach oben geht.
+Bei diesem Versuch trat jedoch das Problem auf, dass der Käfer das Labyrinth nicht lösen kann, da er sobald er nach unten geht im nächsten schritt zwingend wieder nach oben geht.
 Somit bewegt sich der Käfer effektiv auf zwei Feldern.
 Und konnte mehrere Felder nur nach oben oder links laufen.
 Aufgrund seiner Startposition war die Bewegung nach oben jedoch nicht möglich.
@@ -377,7 +375,7 @@ Aufgrund seiner Startposition war die Bewegung nach oben jedoch nicht möglich.
 Im zweiten Versuch wurde nur die Reihenfolge der Richtungen in welcher geprüft wird geändert.
 Es ging immer noch im Uhrzeigersinn, jedoch wurde nun zuerst die rechte Seite geprüft.
 
-Das Problem, im zweiten Versuch bewegte sich der Käfer nun nach links und rechts zwischen den selben zwei Feldern bewegte.
+Das Problem, im zweiten Versuch bewegte sich der Käfer nun nach links und rechts zwischen den selben zwei Feldern.
 
 
 \bigskip
@@ -387,7 +385,7 @@ Somit konnten zwar mit Glück kleinere Labyrinthe gelöst werden aber dies gesch
 
 \bigskip
 
-Der dritte Versuch basiert auch auf dem Prüfen der Richtung im Uhrzei-gersinn, nur das in diesem die Ausgangsrichtung zufällig gewählt wird.
+Der dritte Versuch basiert auch auf dem Prüfen der Richtung im Uhrzei-gersinn, nur dass in diesem die Ausgangsrichtung zufällig gewählt wird.
 Dazu wird eine Zahl zufällig mit der in Python verbauten random Bibliothek erzeugt.
 Dies zufällige Zahl zwischen 0 und 3 entspricht jeweils einer Richtung, wobei 0 für rechts steht und von dort aus im Uhrzeigersinn gegangen wird.
 In dem Versuch wo der Käfer nicht rückwärts laufen kann, wird, wenn er rückwärts laufen muss, der Käfer einmal rotiert, anschließend prüft er nach vorne und bewegt sich dann zur Seite.
@@ -442,7 +440,7 @@ Nimmt man nun den Durchschnitt der Zeit und Schritte jeder Labyrinthsgröße und
 In Abbildung \ref{fig:Plot v1} ist der erste Versuch abgebildet.
 In diesem ist zu erkennen, dass sich bis Labyrinthgröße 22 keine starke Veränderung der benötigten Zeit oder Schritte einstellt.
 Bei Labyrinthgröße 23 ist der erste kleine Ausschlag zu erkennen und bei Labyrinthgröße 29 und 31 befinden sich die ersten beiden starken Ausschläge, wobei sich Größe 30 wieder in der Nähe der Größen bis 22 befindet.
-Anschließend findet ein leichter anstieg statt und ein starker Ausschlag bei Größe 36.
+Anschließend findet ein leichter Anstieg statt und ein starker Ausschlag bei Größe 36.
 
 \begin{figure}[t]
 	\centering
@@ -452,7 +450,7 @@ Anschließend findet ein leichter anstieg statt und ein starker Ausschlag bei Gr
 \end{figure}
 
 Wird nun eine Regressionskurve eingefügt, so ist zu erkennen, dass der Anstieg einer Exponentialfunktion ähnelt.
-Im im logarithmischen Plot Abbildung \ref{fig:Plot v1Log} ist dies eindeutig zu sehen, da die Regressionskurve zu einer perfekten Gerade geworden ist.
+Im logarithmischen Plot Abbildung \ref{fig:Plot v1Log} ist dies eindeutig zu sehen, da die Regressionskurve zu einer perfekten Gerade geworden ist.
 Somit ist die Regressionskurve eine Exponentialfunktion und die Schritte bzw. Zeit steigen exponentiel.
 
 \begin{figure}[h]
@@ -468,19 +466,19 @@ Somit ist die Regressionskurve eine Exponentialfunktion und die Schritte bzw. Ze
 \end{minipage}
 \end{figure}
 
-Die gleiche Betrachtung ist ebenfalls auf den zweiten Versuch, Abbildung \ref{fig:Plot v2} anwendbar, hier ist auffällig, das es nur einen Ausschlag gibt, welcher auffällt.
+Die gleiche Betrachtung ist ebenfalls auf den zweiten Versuch, Abbildung \ref{fig:Plot v2} anwendbar, hier ist auffällig, dass es nur einen Ausschlag gibt, welcher auffällt.
 Dieser liegt bei Labyrinthgröße 37.
-Durch einfügen einer Regressionkurve sieht man in diesem Plot ebenfalls den Ansatz exponentielem Wachstums, welche sich in Abbildung \ref{fig:Plot v2Log} anhand der Geraden im logarithmischen Plot bestätigen lässt.
+Durch Einfügen einer Regressionkurve sieht man in diesem Plot ebenfalls den Ansatz exponentielem Wachstums, welche sich in Abbildung \ref{fig:Plot v2Log} anhand der Geraden im logarithmischen Plot bestätigen lässt.
 
 \bigskip
 
-Betrachtet man nun den Anstieg der Exponentialfunktionen in Abbildung \ref{fig:Plot v1} und Abbildung \ref{fig:Plot v2} so fällt auf, dass der zweite Versuch, wo der Käfer nur in drei Richtung laufen kann, einen weniger starken anstieg hat, als der Käfer im ersten Versuch, der in alle vier Richtungen laufen kann.
+Betrachtet man nun den Anstieg der Exponentialfunktionen in Abbildung \ref{fig:Plot v1} und Abbildung \ref{fig:Plot v2} so fällt auf, dass der zweite Versuch, wo der Käfer nur in drei Richtung laufen kann, einen weniger starken Anstieg hat, als der Käfer im ersten Versuch, der in alle vier Richtungen laufen kann.
 Dies ist der Fall obwohl der Käfer im zweiten Versuch mehr Schritte machen muss um Rückwärts zu laufen.
-Begründen lässt es sich damit, dass es dem Käfer damit auch schwerer Fällt seinen Weg wieder rückwärts zu gehen, da dies nur passiert, wenn entweder rückwärts der einzige Weg ist, er als Ausgang in die Richtung guckt, welche rückwärts ist, er in der Routine vorwärts, rechts oder vorwärts, rechts, links den weg Rückwärts beschreitet.
+Begründen lässt es sich damit, dass es dem Käfer damit auch schwerer fällt seinen Weg wieder rückwärts zu gehen, da dies nur passiert, wenn entweder rückwärts der einzige Weg ist, er als Ausgang in die Richtung guckt, welche rückwärts ist, er in der Routine vorwärts, rechts oder vorwärts, rechts, links den weg Rückwärts beschreitet.
 Also ist es dem Käfer nur in vier Fällen möglich rückwärts zu laufen, während der Käfer aus dem ersten Versuch in folgen Fällen rückwärts laufen kann.
 In vier Fällen, wenn er in einer Sackgasse ist, in drei Fällen wenn ein Weg hinter ihm ist und einer wo anders, in zwei Fällen wenn ein Weg hinter ihm und zwei Wege vor ihm sind und in einem Fall wen alle Wege offen sind.
 Somit ist es dem Käfer in 4 Fällen möglich rückwärts zu gehen.
-Folglich kann der Käfer aus dem ersten Versuch vier mal so oft seinen Weg wieder zurück gehen als der Käfer aus Versuch zwei.
+Folglich kann der Käfer aus dem ersten Versuch potenyiel vier mal so oft seinen Weg wieder zurück gehen als der Käfer aus Versuch zwei.
 Es ist aber nur nötig rückwärts zu gehen, wenn der Käfer in einer Sackgasse gelandet ist.
 Somit ist der Käfer aus dem zweiten Versuch vier mal schneller als der Käfer aus dem ersten Versuch.
 Dies ist ebenfalls aus den Graphen ablesbar, da in Abbildung \ref{fig:Plot v1} die Regressionskurve bei etwa $4 \cdot 10^8$ und in Abbildung \ref{fig:Plot v2} bei etwa $1 \cdot 10^8$ endet.
@@ -509,7 +507,7 @@ Dabei wurden die Anzahl der Schritte und die Anzahl der erfolgten Aktionen, als 
 Nach Betrachtung der Daten sind folgende Erkenntnisse aufgetreten.
 Es viel auf, das obwohl die Richtung, in welche sich der Käfer bewegt, zufällig gewählt wurden, der Käfer unterschiedliche Labyrinthe von der selben Größe in etwa der selben Zeit und Schrittzahl löst.
 Des weiteren wurde festgestellt, dass bei Betrachtung der benötigten Zeit und Schritte, über die verschiedenen Labyrinthgrößen, ein exponentieler Anstieg zu erkennen ist.
-Dabei ist aufgefallen, das der Anstieg während des ersten Versuchs vier mal so groß ist, wie während des zweiten Versuchs, was darauf zurück zu führen ist, dass der Käfer während des zweiten Versuch aufgrund seiner Einschränkung nicht rückwärts laufen zu können ohne eine Drehung diese Bewegung weniger oft ausführte.
+Dabei ist aufgefallen, das der Anstieg während des ersten Versuchs ungefähr vier mal so groß ist, wie während des zweiten Versuchs, was darauf zurück zu führen ist, dass der Käfer während des zweiten Versuch aufgrund seiner Einschränkung nicht rückwärts laufen zu können ohne eine Drehung diese Bewegung weniger oft ausführte.
 Dadurch bewegte er sich weniger häufig auf Felder, auf welchen er sich vorher befand.
 Daraus entsteht die Erkenntnis, dass es schneller ist ein Labyrinth zu lösen, in dem nur zurückgegangen wird, wenn eine Sackgasse erreicht wird.
 

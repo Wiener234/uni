@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.25)  11 AUG 2023 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.27)  2 SEP 2023 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -26,7 +26,7 @@ File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count193
 \U@D=\dimen141
-\l@unhyphenated=\language3
+\l@unhyphenated=\language8
  (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count194
@@ -34,16 +34,6 @@ Package: babel 2023/02/13 3.86 The Babel package
 Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
  (/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
-
-
-Package babel Warning: No hyphenation patterns were preloaded for
-(babel)                the language 'German (new orthography)' into the format.
-(babel)                Please, configure your TeX system to add them and
-(babel)                rebuild the format. Now I will use the patterns
-(babel)                preloaded for \language=0 instead on input line 48.
-
-Package babel Info: Hyphen rules for 'ngerman' set to \l@english
-(babel)             (\language0). Reported on input line 49.
 Package babel Info: Making " an active character on input line 122.
 ))) (/usr/share/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
@@ -161,7 +151,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip57
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language4
+\blx@langwohyphens=\language9
 \c@mincomprange=\count312
 \c@maxcomprange=\count313
 \c@mincompwidth=\count314
@@ -315,7 +305,8 @@ Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
  (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-22 L3 programming layer (loader) 
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count394
 \l__pdf_internal_box=\box51
@@ -332,8 +323,7 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
@@ -612,24 +602,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 176.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 176.
-
-Overfull \hbox (8.83623pt too wide) in paragraph at lines 182--187
-\OT1/cmr/m/n/12 Graphen wird und die Strecke zwis-chen diesen Kreuzun-gen zu Kan-ten im Labyrinth.
- []
-
-
-Overfull \hbox (15.6792pt too wide) in paragraph at lines 182--187
-\OT1/cmr/m/n/12 und Kan-ten ge-fun-den wer-den welche zwis-chen dem Start und dem Ziel des Labyrinths
- []
-
-[2] [3] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+ [2] [3] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Overfull \hbox (12.40703pt too wide) in paragraph at lines 262--264
-[]\OT1/cmr/m/n/12 Es wird die H[]ohe und Bre-ite des Labyrinths ver-dop-pelt um die W[]ande einzuf[]ugen
- []
-
-[4] [5] [6]
+) [4] [5] [6]
 <./images//29.png, id=166, 462.528pt x 346.896pt>
 File: ./images//29.png Graphic file (type png)
 <use ./images//29.png>
@@ -677,12 +652,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 459--469
 []$[]$ $[]$ 
  []
 
-[9 <./images//v1AusLog.png> <./images//v2Aus.png> <./images//v2AusLog.png>]
-Overfull \hbox (0.23492pt too wide) in paragraph at lines 501--505
-\OT1/cmr/m/n/12 nur einen richti-gen Weg be-sitzt. Durch dieses Labyrinth wurde ein K[]afer geschickt,
- []
-
-[10{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [11] [12] (./bug.aux)
+[9 <./images//v1AusLog.png> <./images//v2Aus.png> <./images//v2AusLog.png>] [10{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [11] [12] (./bug.aux)
 Package rerunfilecheck Info: File `bug.out' has not changed.
 (rerunfilecheck)             Checksum: DBC07E164CDA5B2D0996CAF7F05489E0;1108.
 Package logreq Info: Writing requests to 'bug.run.xml'.
@@ -690,15 +660,15 @@ Package logreq Info: Writing requests to 'bug.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19786 strings out of 477985
- 340389 string characters out of 5840058
+ 19783 strings out of 477932
+ 340337 string characters out of 5837865
  2389388 words of memory out of 5000000
- 39664 multiletter control sequences out of 15000+600000
+ 39677 multiletter control sequences out of 15000+600000
  519463 words of font info for 56 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  63i,9n,68p,676b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on bug.pdf (13 pages, 395944 bytes).
+Output written on bug.pdf (13 pages, 395976 bytes).
 PDF statistics:
  312 PDF objects out of 1000 (max. 8388607)
  256 compressed objects within 3 object streams
