@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3}Aufbau}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Erzeugen des Labyrinths}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Durchlaufen des Labyrinths}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Daten sammeln und speichern}{7}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Auswertung}{7}{section.4}%
-\contentsline {section}{\numberline {5}Fehlerbetrachtung}{10}{section.5}%
-\contentsline {section}{\numberline {6}Fazit}{10}{section.6}%
+\contentsline {subsection}{\numberline {3.3}Daten sammeln und speichern}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Auswertung}{9}{section.4}%
+\contentsline {section}{\numberline {5}Fehlerbetrachtung}{12}{section.5}%
+\contentsline {section}{\numberline {6}Fazit}{12}{section.6}%

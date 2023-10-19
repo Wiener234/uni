@@ -1,17 +1,17 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'bug.blg'
-[141] biber:340> INFO - === Fri Aug 11, 2023, 11:56:02
-[166] Biber.pm:419> INFO - Reading 'bug.bcf'
-[279] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
-[307] Biber.pm:4419> INFO - Processing section 0
-[325] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[327] bibtex.pm:1713> INFO - LaTeX decoding ...
-[333] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[437] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[438] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[438] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[438] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[442] bbl.pm:660> INFO - Writing 'bug.bbl' with encoding 'UTF-8'
-[445] bbl.pm:763> INFO - Output to bug.bbl
-[445] Biber.pm:131> WARN - ISBN '978-68050-055-4' in entry 'maze' is invalid - run biber with '--validate_datamodel' for details.
-[445] Biber.pm:133> INFO - WARNINGS: 1
+[1] Config.pm:307> INFO - This is Biber 2.19
+[2] Config.pm:310> INFO - Logfile is 'bug.blg'
+[428] biber:340> INFO - === Sat Sep 30, 2023, 17:24:27
+[513] Biber.pm:419> INFO - Reading 'bug.bcf'
+[843] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[872] Biber.pm:4419> INFO - Processing section 0
+[890] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[891] bibtex.pm:1713> INFO - LaTeX decoding ...
+[916] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[1365] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1366] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1366] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[1366] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[1415] bbl.pm:660> INFO - Writing 'bug.bbl' with encoding 'UTF-8'
+[1428] bbl.pm:763> INFO - Output to bug.bbl
+[1428] Biber.pm:131> WARN - ISBN '978-68050-055-4' in entry 'maze' is invalid - run biber with '--validate_datamodel' for details.
+[1429] Biber.pm:133> INFO - WARNINGS: 1

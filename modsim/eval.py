@@ -29,10 +29,10 @@ for j in range(3,39):
     l = [] 
     for i in range(1,101):
         l.append(times/100)
-
     # print(times/100)
     # print(step/100)
     # plt.plot(x, l, "g")
+    # plt.semilogy()
     plt.plot(x, time, "r")
     plt.plot(x, steps, "b")
     plt.xlabel("Nummer der Durchläufe für: " + str(j))
@@ -76,6 +76,7 @@ x = []
 j = 2
 size = []
 times = []
+test = []
 for j in range(3,39):
     time = 0
     step = 0
@@ -96,9 +97,14 @@ for j in range(3,39):
             time += int(row["Time"])
             i+=1
     size.append(j)
+    test.append(time)
     steps.append(step/100)
     times.append(time/100)
 
+print(str(type(times[30])) + str(times[30]))
+print(str(type(times[34])) + str(times[34]))
+print(len(times))
+print(test)
 exp = []
 for i in size:
     # exp.append(((4/6)*e)**i)
@@ -148,34 +154,34 @@ plt.plot(size, steps, 'b')
 # plt.show()
 
 #Bug 2
-i=0
-steps = []
-x = []
-j = 2
-size = []
-times = []
-for j in range(3,39):
-    time = 0
-    step = 0
-    filename = "data/modsim_0.2_" + str(j) + ".csv"
-    with open(filename, "r") as file:
-        reader = csv.DictReader(file)
-        i=0
-        for row in reader:
-            if i >= 100:
-                break
-            x.append(int(row["Iteration of Size"]))
-            step += int(row["Steps"])
-            time += int(row["Time"])
-            i+=1
-    size.append(j)
-    steps.append(step/100)
-    times.append(time/100)
+# i=0
+# steps = []
+# x = []
+# j = 2
+# size = []
+# times = []
+# for j in range(3,39):
+#     time = 0
+#     step = 0
+#     filename = "data/modsim_0.2_" + str(j) + ".csv"
+#     with open(filename, "r") as file:
+#         reader = csv.DictReader(file)
+#         i=0
+#         for row in reader:
+#             if i >= 100:
+#                 break
+#             x.append(int(row["Iteration of Size"]))
+#             step += int(row["Steps"])
+#             time += int(row["Time"])
+#             i+=1
+#     size.append(j)
+#     steps.append(step/100)
+#     times.append(time/100)
 
-# fig = plt.figure()
-# ax = fig.add_subplot(111)
-plt.plot(size, times, 'g')
-plt.plot(size, steps, 'y')
+# # fig = plt.figure()
+# # ax = fig.add_subplot(111)
+# plt.plot(size, times, 'g')
+# plt.plot(size, steps, 'y')
 
 
 
@@ -201,7 +207,7 @@ plt.plot(size, steps, 'y')
 
 
 
-plt.semilogy()
+# plt.semilogy()
 
 plt.xlabel("Größe des Labyrinths")
 plt.ylabel("Zeit/Schritte")

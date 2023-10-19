@@ -104,6 +104,106 @@
       \verb https://doi.org/10.1063/5.0009531
       \endverb
     \endentry
+    \entry{mazelib}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f5990f782eb262f5340f786f2a08ed66}{%
+           family={Stilley},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5990f782eb262f5340f786f2a08ed66}
+      \strng{fullhash}{f5990f782eb262f5340f786f2a08ed66}
+      \strng{bibnamehash}{f5990f782eb262f5340f786f2a08ed66}
+      \strng{authorbibnamehash}{f5990f782eb262f5340f786f2a08ed66}
+      \strng{authornamehash}{f5990f782eb262f5340f786f2a08ed66}
+      \strng{authorfullhash}{f5990f782eb262f5340f786f2a08ed66}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mazelib}
+      \field{urlday}{29}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/john-science/mazelib
+      \endverb
+      \verb{url}
+      \verb https://github.com/john-science/mazelib
+      \endverb
+    \endentry
+    \entry{perfect_maze}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8c4a144db4e7fca0090d1a941a5e87ad}{%
+           family={Victor},
+           familyi={V\bibinitperiod},
+           given={Bellot},
+           giveni={B\bibinitperiod}}}%
+        {{hash=96892ee02333b96e84b2601bff69e156}{%
+           family={Maxime},
+           familyi={M\bibinitperiod},
+           given={Cautrès},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0da3de97490c82c8af73243947bf2dc2}{%
+           family={Jean-Marie},
+           familyi={J\bibinithyphendelim M\bibinitperiod},
+           given={Favreau},
+           giveni={F\bibinitperiod}}}%
+        {{hash=91a701f66c83e0f6db44dfabedaeef1d}{%
+           family={Milan},
+           familyi={M\bibinitperiod},
+           given={Gonzalez-Thauvin},
+           giveni={G\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=068d95e3552a9e3d307faad350abb7bd}{%
+           family={Pascal},
+           familyi={P\bibinitperiod},
+           given={Lafourcade},
+           giveni={L\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al..},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5febd82c6e19043cf10be9bf14425e2}
+      \strng{fullhash}{62deb9ba694f963447a616e7ad66d717}
+      \strng{bibnamehash}{e5febd82c6e19043cf10be9bf14425e2}
+      \strng{authorbibnamehash}{e5febd82c6e19043cf10be9bf14425e2}
+      \strng{authornamehash}{e5febd82c6e19043cf10be9bf14425e2}
+      \strng{authorfullhash}{62deb9ba694f963447a616e7ad66d717}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Sciences}
+      \field{title}{How to Generate Perfect Mazes?}
+      \field{volume}{10.1016}
+      \field{year}{2021}
+    \endentry
+    \entry{mazetograph}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f796aca8ae8336d9455c518341a485b2}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Hollis},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f796aca8ae8336d9455c518341a485b2}
+      \strng{fullhash}{f796aca8ae8336d9455c518341a485b2}
+      \strng{bibnamehash}{f796aca8ae8336d9455c518341a485b2}
+      \strng{authorbibnamehash}{f796aca8ae8336d9455c518341a485b2}
+      \strng{authornamehash}{f796aca8ae8336d9455c518341a485b2}
+      \strng{authorfullhash}{f796aca8ae8336d9455c518341a485b2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{title}{The Mathematics of Mazes}
+      \field{year}{2020}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

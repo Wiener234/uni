@@ -9,8 +9,7 @@ class Kruskal:
     
     
     def generate(self):
-        self.grid = np.empty((self.H,self.W), dtype=np.int8) # create np.array 
-        self.grid.fill(1)                                    # fill array with 1
+        self.grid = np.ones((self.H,self.W), dtype=np.int8) # create np.array 
         
         forest = []
         for row in range(2,self.H-2, 2):

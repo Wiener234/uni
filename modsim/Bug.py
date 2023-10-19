@@ -115,8 +115,8 @@ iter = 0
 #                     # turns.append([turn, left])
          
 #             steps += 1
-#         L.append({'Iteration' : iter, 'Size' : i,'Iteration of Size' : j, 'Time' : time, 'Steps' : steps, 'Order of Steps' : turns,'Maze' : mar})
-#         row.append(L)
+#     L.append({'Iteration' : iter, 'Size' : i,'Iteration of Size' : j, 'Time' : time, 'Steps' : steps, 'Order of Steps' : turns,'Maze' : mar})
+#     row.append(L)
 
 
     
@@ -147,10 +147,10 @@ running = True
 mgridx = 0
 mgridy = 0
 
-gridsize = 24
+gridsize = 30
 
-x = 10
-y = 10
+x = 3
+y = 3
 
 start = [2,2]
 end = [x*2,y*2]
