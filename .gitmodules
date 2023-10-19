@@ -1,0 +1,3 @@
+[submodule "TI_I/formale_grundlagen_der_informatik"]
+	path = TI_I/formale_grundlagen_der_informatik
+	url = git@gitup.uni-potsdam.de:tkranz/formale_grundlagen_der_informatik.git
